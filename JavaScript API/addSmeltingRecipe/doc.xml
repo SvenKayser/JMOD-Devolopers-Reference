@@ -1,0 +1,37 @@
+<documentation>
+    <dochead>
+		<name>addSmeltingRecipe</name>
+		<type>Method</type>
+	</dochead>
+	<description type="section">
+		Adds a recipe to the furnace and other TileEntities using the same recipies.
+	</description>
+	
+	<invoke type="section">
+		<returns>void</returns>
+		<command>addSmeltingRecipe</command>
+		(
+			<parameter><dtype>String</dtype> result</parameter> ,
+			<parameter><dtype>String</dtype> ingredient</parameter>
+		)
+	</invoke>
+
+	<parameterlist type="section">
+		<entry>
+			<parameter><dtype>String</dtype> result</parameter>
+			<desc>A String descriptor for a result ItemStack</desc>
+		</entry>
+		<entry>
+			<parameter><dtype>String</dtype> ingredient</parameter>
+			<desc>A String descriptor for an ingredient ItemStack</desc>
+		</entry>
+	</parameterlist>
+
+	
+	
+		
+	
+	
+</documentation>
+
+

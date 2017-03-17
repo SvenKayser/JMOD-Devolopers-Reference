@@ -1,0 +1,23 @@
+<documentation>
+	<dochead>
+		<name>The Javascript MOD Loader (JMOD) for Minecraft 1.7.10 / MinecraftForge 10.13.4.1558</name>
+	</dochead>
+	<description type="section">
+		<paragraph>JMOD let's you define simple mods without the hassle of writing setting up a Java development environment and compiling your mods each time you want to try a change. While you don't need to learn Java do write mods with JMOD, you need some basic understanding of JavaScript, however the emphasis definitely is on "basic".</paragraph>
+
+		<paragraph>JMOD excels at building "glue" mods for mod packs, which was its original purpose. It provides you with a multitude of tools to modify existing content in the game, like tool materials, block hardness, recipes or random chest loot. It also allows you to implement new items and blocks in an instant, most of the time with just one single line of code. All the content you add will belong to your own mod, rather than to JMOD or some other mod (like CustomItems, for example). So if you want to go ahead and add a few new tools to the game, and some new metals, along with ingots and ores, including world generation - JMOD is for you.</paragraph>
+
+		<paragraph>JMOD also allows the use of plugins, which are easy to build native Java implementations of functionalities that would otherwise be used in mods. Bound with the right scripting methods you can make use of rather complex things implemented in native Java while calling them from JavaScript. All of JMODs bindings to other mods are implemented this way. The "Vanilla Ingot Works" Plugin however is an example of a standalone implementation of new content.</paragraphp>
+
+		<paragraphp>If you desire a feature for JMOD please let me know and I will see if it is possible to implement.</paragraph>
+
+		
+	</description>
+	<repository type="section">
+		<link link="https://github.com/SvenKayser/JMOD">JMOD</link>
+	</repository>
+
+	
+</documentation>
+
+

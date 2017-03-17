@@ -1,0 +1,220 @@
+body {
+    background: none repeat scroll 0 0 #eee;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+documentation {
+    display: block;
+    font-family: Arial,Helvetica,sans-serif;
+    padding: 10px;
+}
+
+
+documentation head {
+    background: none repeat scroll 0 0 white;
+    border: 1px solid black;
+    display: block;
+    padding: 5px;
+}
+
+
+documentation name {
+    border-bottom: 1px dotted black;
+    display: block;
+    font-size: 24pt;
+    font-weight: bold;
+}
+
+documentation type
+{
+	color:#333;
+	display:block;
+}
+
+documentation submethod name {
+    font-size: 18pt;
+}
+
+documentation submethod [type="section"] {
+    background:#eee;
+}
+
+
+
+documentation devinfo path {
+    color: #000;
+    display: block;
+
+
+}
+
+documentation devinfo path:before {
+    content: "class path";
+    display: inline-block;
+    width: 100px;
+}
+
+documentation code:before {
+    content: "codebase";
+    display: inline-block;
+    width: 100px;
+}
+
+
+
+documentation devinfo {
+    background: none repeat scroll 0 0 #ffffee;
+    border: 1px solid black;
+    display: block;
+    float: right;
+    font-family: monospace;
+    margin: 10px 0 10px 10px;
+    padding: 10px;
+    width: 250px;
+}
+
+documentation invoke parameter {
+    font-weight:normal;
+}
+
+documentation invoke parameter dtype {
+    font-weight:normal;
+}
+
+
+
+documentation description:before 	{content: "Description";}
+documentation parameterlist:before 	{content: "Parameters";}
+documentation invoke:before 		{content: "Invoke";}
+documentation methods:before		{content: "Methods";}
+documentation example:before		{content: "Example";}
+documentation changelog:before		{content: "Changelog";}
+documentation repository:before     {content: "Code repository";}
+
+documentation paragraph {
+    display:block;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding-left:10px;
+}
+
+
+
+returns {
+    color: #800000;
+    font-style:italic;
+}
+
+
+dtype {
+    color: #080;
+    font-weight: bold;
+}
+
+
+command {
+    font-weight: bold;
+}
+
+
+parameter {
+    color: #00a;
+    font-weight: bold;
+}
+
+
+parameter[optional="1"] {
+    font-style: italic;
+    font-weight: normal;
+}
+
+
+
+
+
+documentation parameterlist entry {
+    display: block;
+    margin-bottom: 20px;
+}
+
+
+documentation parameterlist entry desc {
+    display: block;
+    margin-left: 20px;
+}
+
+documentation [type="section"]::before
+{
+	display: block;
+    font-size: 18pt;
+    margin-bottom: 10px;
+}
+
+documentation [type="section"] {
+    background: none repeat scroll 0 0 white;
+    border: 1px solid #333;
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    width: calc(100% - 315px);
+}
+
+example
+{
+	font-family:mono;
+}
+
+documentation name path
+{
+	color:#ccc;
+}
+
+documentation changelog entry::before{content:"- ";}
+documentation changelog date
+{
+	width:100px;
+	display:inline-block;
+	color:#aaa;
+}
+
+
+
+a {
+    border-bottom: 1px dotted #00a;
+    color: #00a;
+    text-decoration: none;
+}
+
+
+div.doc {
+    float: right;
+    width: calc(100% - 200px);
+}
+
+
+
+div.sidebar {
+    float: right;
+    height: 100%;
+    margin-top: 70px;
+    position: absolute;
+    width: 200px;
+}
+
+
+
+.direntry {
+    cursor: pointer;
+    font-family: MONOSPACE;
+    font-size: 12pt;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.direntry span:hover {
+	color:#00f;
+}
+

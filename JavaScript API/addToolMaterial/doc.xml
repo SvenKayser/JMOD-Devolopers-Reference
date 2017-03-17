@@ -1,0 +1,57 @@
+<documentation>
+    <dochead>
+		<name>addToolMaterial</name>
+		<type>Method</type>
+	</dochead>
+	<description type="section">
+		Adds a ToolMaterial to the game.
+	</description>
+	
+	<invoke type="section">
+		<returns>AddToolMaterial</returns>
+		<command>addToolMaterial</command>
+		(
+			<parameter><dtype>String</dtype> name</parameter> ,
+			<parameter><dtype>int</dtype> harvestlevel</parameter>,
+			<parameter><dtype>int</dtype> durability</parameter>,
+			<parameter><dtype>float</dtype> efficiency</parameter>,
+			<parameter><dtype>float</dtype> damage</parameter>,
+			<parameter><dtype>int</dtype> enchantability</parameter>,
+			<parameter><dtype>String</dtype> repairmaterial</parameter>
+
+		)
+	</invoke>
+
+	<parameterlist type="section">
+		<entry>
+			<parameter><dtype>String</dtype> result</parameter>
+			<desc>Name of the new ToolMaterial</desc>
+		</entry>
+		<entry>
+			<parameter><dtype>int</dtype> harvestlevel</parameter>
+		</entry>
+		<entry>
+			<parameter><dtype>int</dtype> durability</parameter>
+		</entry>
+		<entry>
+			<parameter><dtype>float</dtype> efficiency</parameter>
+		</entry>
+		<entry>
+			<parameter><dtype>float</dtype> damage</parameter>
+		</entry>
+		<entry>
+			<parameter><dtype>int</dtype> enchantability</parameter>
+		</entry>
+		<entry>
+			<parameter><dtype>String</dtype> repairmaterial</parameter>
+		</entry>
+	</parameterlist>
+
+	
+	
+		
+	
+	
+</documentation>
+
+

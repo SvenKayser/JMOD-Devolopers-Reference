@@ -1,0 +1,56 @@
+<documentation>
+    <dochead>
+		<name>addShapelessRecipe</name>
+		<type>Method</type>
+	</dochead>
+	<description type="section">
+		Adds a shapeless recipe to the game.
+	</description>
+	
+	<invoke type="section">
+		<returns>AddShapelessRecipe</returns>
+		<command>addShapelessRecipe</command>
+		(
+			<parameter><dtype>String</dtype> result</parameter> ,
+			<parameter><dtype>[Strings]</dtype> ingredients</parameter>
+		)
+	</invoke>
+
+	<parameterlist type="section">
+		<entry>
+			<parameter><dtype>String</dtype> result</parameter>
+			<desc>A String descriptor for a result ItemStack</desc>
+		</entry>
+		<entry>
+			<parameter><dtype>[Object]</dtype> ingredients</parameter>
+			<desc>An array of String descriptors for ingredient ItemStacks</desc>
+		</entry>
+	</parameterlist>
+
+	<submethod type="section">
+		<name><path>AddShapelessRecipe.</path> setNBT</name>
+		<type>Method</type>
+
+		<invoke type="section">
+			<returns>AddShapelessRecipe</returns>
+			<command>setNBT</command>
+			(
+				<parameter><dtype>Object</dtype> nbtObject</parameter> ,
+			)
+		</invoke>
+
+		<parameterlist type="section">
+			<entry>
+				<parameter><dtype>Object</dtype> nbtObject</parameter>
+				<desc>A freely defined Object to be translated into an NBTTagCompound. Should only contain Strings, Integers, Floats and Array of these - or further sub-objects that fall under the same rules.</desc>
+			</entry>
+		</parameterlist>
+
+	</submethods>
+	
+		
+	
+	
+</documentation>
+
+

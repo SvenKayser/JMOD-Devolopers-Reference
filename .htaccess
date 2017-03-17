@@ -1,0 +1,6 @@
+DirectoryIndex doc.php
+
+RewriteEngine on
+
+
+RewriteRule (.*)\/$ doc.php?p=$1
