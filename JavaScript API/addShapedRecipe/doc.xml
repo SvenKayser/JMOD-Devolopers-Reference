@@ -1,0 +1,32 @@
+<documentation>
+    <dochead>
+		<name>addShapedRecipe</name>
+		<type>Method</type>
+	</dochead>
+	<description type="section">
+		Adds a shaped recipe to the game.
+	</description>
+	
+	<invoke type="section">
+		<returns>AddShapedRecipe</returns>
+		<command>addShapedRecipe</command>
+		(
+			<parameter><dtype>String</dtype> result</parameter> ,
+			<parameter><dtype>Object</dtype> pattern</parameter>
+		)
+	</invoke>
+
+	<parameterlist type="section">
+		<entry>
+			<parameter><dtype>String</dtype> result</parameter>
+			<desc>A String descriptor for a result ItemStack</desc>
+		</entry>
+		<entry>
+			<parameter><dtype>Object</dtype> pattern</parameter>
+			<desc>A two dimensional Array (3 by 3) of String descriptors for ingredient ItemStacks. May contain null values.</desc>
+		</entry>
+	</parameterlist>
+
+</documentation>
+
+

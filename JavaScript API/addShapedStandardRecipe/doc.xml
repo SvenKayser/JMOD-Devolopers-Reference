@@ -1,0 +1,53 @@
+<documentation>
+    <dochead>
+		<name>addShapedStandardRecipe</name>
+		<type>Method</type>
+	</dochead>
+	<description type="section">
+		Adds a shaped standard recipe to the game.
+	</description>
+	
+	<invoke type="section">
+		<returns>AddShapedRecipe</returns>
+		<command>addShapedStandardRecipe</command>
+		(
+			<parameter><dtype>String</dtype> result</parameter> ,
+			<parameter><dtype>String</dtype> type</parameter> ,
+			<parameter><dtype>String</dtype> ingredient</parameter>
+		)
+	</invoke>
+
+	<parameterlist type="section">
+		<entry>
+			<parameter><dtype>String</dtype> result</parameter>
+			<desc>A String descriptor for a result ItemStack</desc>
+		</entry>
+		<entry>
+			<parameter><dtype>String</dtype> type</parameter>
+			<desc>A String describing a recipe type</desc>
+			<possible>
+				<value><dtype>String</dtype> "pickaxe"</value>
+				<value><dtype>String</dtype> "axe"</value>
+				<value><dtype>String</dtype> "shovel"</value>
+				<value><dtype>String</dtype> "sword"</value>
+				<value><dtype>String</dtype> "shears"</value>
+				<value><dtype>String</dtype> "hoe"</value>
+				<value><dtype>String</dtype> "helmet"</value>
+				<value><dtype>String</dtype> "chest"</value>
+				<value><dtype>String</dtype> "leggings"</value>
+				<value><dtype>String</dtype> "boots"</value>
+				<value><dtype>String</dtype> "block"</value>
+				<value><dtype>String</dtype> "smallblock"</value>
+			</possible>
+		</entry>
+		<entry>
+			<parameter><dtype>String</dtype> ingredient</parameter>
+			<desc>A String descriptor for a result ItemStack</desc>
+		</entry>
+		
+	</parameterlist>
+
+
+</documentation>
+
+
