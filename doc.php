@@ -21,7 +21,7 @@
 		$darr = scandir($basedir.$directory);
 		foreach($darr as $dir)
 		{
-			if(($dir != ".") && ($dir != "..") && is_dir($basedir.$directory."/".$dir))
+			if((substr($dir,0,1) != ".") && is_dir($basedir.$directory."/".$dir))
 			{
 				echo '<div class="direntry"><span href="'.$directory."/".$dir.'">'.$dir.'</span>';
 				 
